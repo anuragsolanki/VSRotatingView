@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750E66A3150DB7590046696C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E66A2150DB7590046696C /* UIKit.framework */; };
+		750E66A5150DB7590046696C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E66A4150DB7590046696C /* Foundation.framework */; };
+		750E66A7150DB7590046696C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E66A6150DB7590046696C /* CoreGraphics.framework */; };
+		750E66AD150DB7590046696C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 750E66AB150DB7590046696C /* InfoPlist.strings */; };
+		750E66AF150DB7590046696C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 750E66AE150DB7590046696C /* main.m */; };
+		750E66B3150DB7590046696C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 750E66B2150DB7590046696C /* AppDelegate.m */; };
+		750E66B6150DB7590046696C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750E66B5150DB7590046696C /* ViewController.m */; };
+		750E66B9150DB7590046696C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 750E66B7150DB7590046696C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		750E669E150DB7590046696C /* ImageScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		750E66A2150DB7590046696C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		750E66A4150DB7590046696C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		750E66A6150DB7590046696C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		750E66AA150DB7590046696C /* ImageScroller-Info.plist */ = {isa = PBXFileReference; path = "ImageScroller-Info.plist"; sourceTree = "<group>"; };
+		750E66AC150DB7590046696C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		750E66AE150DB7590046696C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		750E66B0150DB7590046696C /* ImageScroller-Prefix.pch */ = {isa = PBXFileReference; path = "ImageScroller-Prefix.pch"; sourceTree = "<group>"; };
+		750E66B1150DB7590046696C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		750E66B2150DB7590046696C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		750E66B4150DB7590046696C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		750E66B5150DB7590046696C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		750E66B8150DB7590046696C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		750E669B150DB7590046696C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750E66A3150DB7590046696C /* UIKit.framework in Frameworks */,
+				750E66A5150DB7590046696C /* Foundation.framework in Frameworks */,
+				750E66A7150DB7590046696C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		750E6693150DB7590046696C = {
+			isa = PBXGroup;
+			children = (
+				750E66A8150DB7590046696C /* ImageScroller */,
+				750E66A1150DB7590046696C /* Frameworks */,
+				750E669F150DB7590046696C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		750E669F150DB7590046696C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				750E669E150DB7590046696C /* ImageScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		750E66A1150DB7590046696C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				750E66A2150DB7590046696C /* UIKit.framework */,
+				750E66A4150DB7590046696C /* Foundation.framework */,
+				750E66A6150DB7590046696C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		750E66A8150DB7590046696C /* ImageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				750E66B1150DB7590046696C /* AppDelegate.h */,
+				750E66B2150DB7590046696C /* AppDelegate.m */,
+				750E66B4150DB7590046696C /* ViewController.h */,
+				750E66B5150DB7590046696C /* ViewController.m */,
+				750E66B7150DB7590046696C /* ViewController.xib */,
+				750E66A9150DB7590046696C /* Supporting Files */,
+			);
+			path = ImageScroller;
+			sourceTree = "<group>";
+		};
+		750E66A9150DB7590046696C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				750E66AA150DB7590046696C /* ImageScroller-Info.plist */,
+				750E66AB150DB7590046696C /* InfoPlist.strings */,
+				750E66AE150DB7590046696C /* main.m */,
+				750E66B0150DB7590046696C /* ImageScroller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		750E669D150DB7590046696C /* ImageScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750E66BC150DB7590046696C /* Build configuration list for PBXNativeTarget "ImageScroller" */;
+			buildPhases = (
+				750E669A150DB7590046696C /* Sources */,
+				750E669B150DB7590046696C /* Frameworks */,
+				750E669C150DB7590046696C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageScroller;
+			productName = ImageScroller;
+			productReference = 750E669E150DB7590046696C /* ImageScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		750E6695150DB7590046696C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 750E6698150DB7590046696C /* Build configuration list for PBXProject "ImageScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 750E6693150DB7590046696C;
+			productRefGroup = 750E669F150DB7590046696C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				750E669D150DB7590046696C /* ImageScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		750E669C150DB7590046696C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750E66AD150DB7590046696C /* InfoPlist.strings in Resources */,
+				750E66B9150DB7590046696C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		750E669A150DB7590046696C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750E66AF150DB7590046696C /* main.m in Sources */,
+				750E66B3150DB7590046696C /* AppDelegate.m in Sources */,
+				750E66B6150DB7590046696C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		750E66AB150DB7590046696C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750E66AC150DB7590046696C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		750E66B7150DB7590046696C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750E66B8150DB7590046696C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		750E66BA150DB7590046696C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		750E66BB150DB7590046696C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		750E66BD150DB7590046696C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageScroller/ImageScroller-Prefix.pch";
+				INFOPLIST_FILE = "ImageScroller/ImageScroller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		750E66BE150DB7590046696C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageScroller/ImageScroller-Prefix.pch";
+				INFOPLIST_FILE = "ImageScroller/ImageScroller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		750E6698150DB7590046696C /* Build configuration list for PBXProject "ImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750E66BA150DB7590046696C /* Debug */,
+				750E66BB150DB7590046696C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750E66BC150DB7590046696C /* Build configuration list for PBXNativeTarget "ImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750E66BD150DB7590046696C /* Debug */,
+				750E66BE150DB7590046696C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 750E6695150DB7590046696C /* Project object */;
+}
