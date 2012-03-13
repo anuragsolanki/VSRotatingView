@@ -12,9 +12,22 @@
 		750E66A7150DB7590046696C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E66A6150DB7590046696C /* CoreGraphics.framework */; };
 		750E66AD150DB7590046696C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 750E66AB150DB7590046696C /* InfoPlist.strings */; };
 		750E66AF150DB7590046696C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 750E66AE150DB7590046696C /* main.m */; };
-		750E66B3150DB7590046696C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 750E66B2150DB7590046696C /* AppDelegate.m */; };
-		750E66B6150DB7590046696C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750E66B5150DB7590046696C /* ViewController.m */; };
-		750E66B9150DB7590046696C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 750E66B7150DB7590046696C /* ViewController.xib */; };
+		750E66CE150DBBBB0046696C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E66CC150DBBA30046696C /* QuartzCore.framework */; };
+		750E66D1150DC13E0046696C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E66CF150DC1330046696C /* AVFoundation.framework */; };
+		75D35FC0150E095B00AFE801 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FBF150E095B00AFE801 /* README */; };
+		75D35FD5150E0D0200AFE801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D35FC3150E0D0200AFE801 /* AppDelegate.m */; };
+		75D35FD6150E0D0200AFE801 /* dial-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FC4150E0D0200AFE801 /* dial-bg.png */; };
+		75D35FD7150E0D0200AFE801 /* dial-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FC5150E0D0200AFE801 /* dial-bg@2x.png */; };
+		75D35FD8150E0D0200AFE801 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D35FC7150E0D0200AFE801 /* ViewController.m */; };
+		75D35FD9150E0D0200AFE801 /* DialClick.caf in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FCA150E0D0200AFE801 /* DialClick.caf */; };
+		75D35FDA150E0D0200AFE801 /* dropShadowTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FCB150E0D0200AFE801 /* dropShadowTop.png */; };
+		75D35FDB150E0D0200AFE801 /* dropShadowTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FCC150E0D0200AFE801 /* dropShadowTop@2x.png */; };
+		75D35FDC150E0D0200AFE801 /* pain-cycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FCD150E0D0200AFE801 /* pain-cycle.png */; };
+		75D35FDD150E0D0200AFE801 /* pain-cycle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FCE150E0D0200AFE801 /* pain-cycle@2x.png */; };
+		75D35FDE150E0D0200AFE801 /* white-circular-bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FCF150E0D0200AFE801 /* white-circular-bg1.png */; };
+		75D35FDF150E0D0200AFE801 /* white-circular-bg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FD0150E0D0200AFE801 /* white-circular-bg1@2x.png */; };
+		75D35FE0150E0D0200AFE801 /* VSRotatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D35FD3150E0D0200AFE801 /* VSRotatingView.m */; };
+		75D35FE1150E0D0200AFE801 /* VSRotatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FD4150E0D0200AFE801 /* VSRotatingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +35,30 @@
 		750E66A2150DB7590046696C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		750E66A4150DB7590046696C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		750E66A6150DB7590046696C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		750E66AA150DB7590046696C /* ImageScroller-Info.plist */ = {isa = PBXFileReference; path = "ImageScroller-Info.plist"; sourceTree = "<group>"; };
+		750E66AA150DB7590046696C /* ImageScroller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageScroller-Info.plist"; sourceTree = "<group>"; };
 		750E66AC150DB7590046696C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		750E66AE150DB7590046696C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		750E66B0150DB7590046696C /* ImageScroller-Prefix.pch */ = {isa = PBXFileReference; path = "ImageScroller-Prefix.pch"; sourceTree = "<group>"; };
-		750E66B1150DB7590046696C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		750E66B2150DB7590046696C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		750E66B4150DB7590046696C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		750E66B5150DB7590046696C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		750E66B8150DB7590046696C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		750E66B0150DB7590046696C /* ImageScroller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageScroller-Prefix.pch"; sourceTree = "<group>"; };
+		750E66CC150DBBA30046696C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		750E66CF150DC1330046696C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		75D35FBF150E095B00AFE801 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		75D35FC2150E0D0200AFE801 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75D35FC3150E0D0200AFE801 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75D35FC4150E0D0200AFE801 /* dial-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dial-bg.png"; sourceTree = "<group>"; };
+		75D35FC5150E0D0200AFE801 /* dial-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dial-bg@2x.png"; sourceTree = "<group>"; };
+		75D35FC6150E0D0200AFE801 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75D35FC7150E0D0200AFE801 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75D35FCA150E0D0200AFE801 /* DialClick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DialClick.caf; sourceTree = "<group>"; };
+		75D35FCB150E0D0200AFE801 /* dropShadowTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropShadowTop.png; sourceTree = "<group>"; };
+		75D35FCC150E0D0200AFE801 /* dropShadowTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropShadowTop@2x.png"; sourceTree = "<group>"; };
+		75D35FCD150E0D0200AFE801 /* pain-cycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pain-cycle.png"; sourceTree = "<group>"; };
+		75D35FCE150E0D0200AFE801 /* pain-cycle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pain-cycle@2x.png"; sourceTree = "<group>"; };
+		75D35FCF150E0D0200AFE801 /* white-circular-bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-circular-bg1.png"; sourceTree = "<group>"; };
+		75D35FD0150E0D0200AFE801 /* white-circular-bg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-circular-bg1@2x.png"; sourceTree = "<group>"; };
+		75D35FD1150E0D0200AFE801 /* VSConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSConstant.h; sourceTree = "<group>"; };
+		75D35FD2150E0D0200AFE801 /* VSRotatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSRotatingView.h; sourceTree = "<group>"; };
+		75D35FD3150E0D0200AFE801 /* VSRotatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSRotatingView.m; sourceTree = "<group>"; };
+		75D35FD4150E0D0200AFE801 /* VSRotatingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSRotatingView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750E66D1150DC13E0046696C /* AVFoundation.framework in Frameworks */,
+				750E66CE150DBBBB0046696C /* QuartzCore.framework in Frameworks */,
 				750E66A3150DB7590046696C /* UIKit.framework in Frameworks */,
 				750E66A5150DB7590046696C /* Foundation.framework in Frameworks */,
 				750E66A7150DB7590046696C /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +97,8 @@
 		750E66A1150DB7590046696C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				750E66CF150DC1330046696C /* AVFoundation.framework */,
+				750E66CC150DBBA30046696C /* QuartzCore.framework */,
 				750E66A2150DB7590046696C /* UIKit.framework */,
 				750E66A4150DB7590046696C /* Foundation.framework */,
 				750E66A6150DB7590046696C /* CoreGraphics.framework */,
@@ -77,12 +109,10 @@
 		750E66A8150DB7590046696C /* ImageScroller */ = {
 			isa = PBXGroup;
 			children = (
-				750E66B1150DB7590046696C /* AppDelegate.h */,
-				750E66B2150DB7590046696C /* AppDelegate.m */,
-				750E66B4150DB7590046696C /* ViewController.h */,
-				750E66B5150DB7590046696C /* ViewController.m */,
-				750E66B7150DB7590046696C /* ViewController.xib */,
+				75D35FC1150E0D0200AFE801 /* Demo */,
+				75D35FC8150E0D0200AFE801 /* VSRotatingView */,
 				750E66A9150DB7590046696C /* Supporting Files */,
+				75D35FBF150E095B00AFE801 /* README */,
 			);
 			path = ImageScroller;
 			sourceTree = "<group>";
@@ -96,6 +126,45 @@
 				750E66B0150DB7590046696C /* ImageScroller-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D35FC1150E0D0200AFE801 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				75D35FC2150E0D0200AFE801 /* AppDelegate.h */,
+				75D35FC3150E0D0200AFE801 /* AppDelegate.m */,
+				75D35FC4150E0D0200AFE801 /* dial-bg.png */,
+				75D35FC5150E0D0200AFE801 /* dial-bg@2x.png */,
+				75D35FC6150E0D0200AFE801 /* ViewController.h */,
+				75D35FC7150E0D0200AFE801 /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		75D35FC8150E0D0200AFE801 /* VSRotatingView */ = {
+			isa = PBXGroup;
+			children = (
+				75D35FC9150E0D0200AFE801 /* Resources */,
+				75D35FD1150E0D0200AFE801 /* VSConstant.h */,
+				75D35FD2150E0D0200AFE801 /* VSRotatingView.h */,
+				75D35FD3150E0D0200AFE801 /* VSRotatingView.m */,
+				75D35FD4150E0D0200AFE801 /* VSRotatingView.xib */,
+			);
+			path = VSRotatingView;
+			sourceTree = "<group>";
+		};
+		75D35FC9150E0D0200AFE801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75D35FCA150E0D0200AFE801 /* DialClick.caf */,
+				75D35FCB150E0D0200AFE801 /* dropShadowTop.png */,
+				75D35FCC150E0D0200AFE801 /* dropShadowTop@2x.png */,
+				75D35FCD150E0D0200AFE801 /* pain-cycle.png */,
+				75D35FCE150E0D0200AFE801 /* pain-cycle@2x.png */,
+				75D35FCF150E0D0200AFE801 /* white-circular-bg1.png */,
+				75D35FD0150E0D0200AFE801 /* white-circular-bg1@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +218,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				750E66AD150DB7590046696C /* InfoPlist.strings in Resources */,
-				750E66B9150DB7590046696C /* ViewController.xib in Resources */,
+				75D35FC0150E095B00AFE801 /* README in Resources */,
+				75D35FD6150E0D0200AFE801 /* dial-bg.png in Resources */,
+				75D35FD7150E0D0200AFE801 /* dial-bg@2x.png in Resources */,
+				75D35FD9150E0D0200AFE801 /* DialClick.caf in Resources */,
+				75D35FDA150E0D0200AFE801 /* dropShadowTop.png in Resources */,
+				75D35FDB150E0D0200AFE801 /* dropShadowTop@2x.png in Resources */,
+				75D35FDC150E0D0200AFE801 /* pain-cycle.png in Resources */,
+				75D35FDD150E0D0200AFE801 /* pain-cycle@2x.png in Resources */,
+				75D35FDE150E0D0200AFE801 /* white-circular-bg1.png in Resources */,
+				75D35FDF150E0D0200AFE801 /* white-circular-bg1@2x.png in Resources */,
+				75D35FE1150E0D0200AFE801 /* VSRotatingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,8 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				750E66AF150DB7590046696C /* main.m in Sources */,
-				750E66B3150DB7590046696C /* AppDelegate.m in Sources */,
-				750E66B6150DB7590046696C /* ViewController.m in Sources */,
+				75D35FD5150E0D0200AFE801 /* AppDelegate.m in Sources */,
+				75D35FD8150E0D0200AFE801 /* ViewController.m in Sources */,
+				75D35FE0150E0D0200AFE801 /* VSRotatingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +255,6 @@
 				750E66AC150DB7590046696C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		750E66B7150DB7590046696C /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				750E66B8150DB7590046696C /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,6 +344,7 @@
 				750E66BE150DB7590046696C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
