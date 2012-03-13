@@ -14,7 +14,6 @@
 		750E66AF150DB7590046696C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 750E66AE150DB7590046696C /* main.m */; };
 		750E66CE150DBBBB0046696C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E66CC150DBBA30046696C /* QuartzCore.framework */; };
 		750E66D1150DC13E0046696C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E66CF150DC1330046696C /* AVFoundation.framework */; };
-		75D35FC0150E095B00AFE801 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FBF150E095B00AFE801 /* README */; };
 		75D35FD5150E0D0200AFE801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D35FC3150E0D0200AFE801 /* AppDelegate.m */; };
 		75D35FD6150E0D0200AFE801 /* dial-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FC4150E0D0200AFE801 /* dial-bg.png */; };
 		75D35FD7150E0D0200AFE801 /* dial-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FC5150E0D0200AFE801 /* dial-bg@2x.png */; };
@@ -28,6 +27,7 @@
 		75D35FDF150E0D0200AFE801 /* white-circular-bg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FD0150E0D0200AFE801 /* white-circular-bg1@2x.png */; };
 		75D35FE0150E0D0200AFE801 /* VSRotatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D35FD3150E0D0200AFE801 /* VSRotatingView.m */; };
 		75D35FE1150E0D0200AFE801 /* VSRotatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FD4150E0D0200AFE801 /* VSRotatingView.xib */; };
+		75E34148150F2E010013E776 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 75E34147150F2E010013E776 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,6 @@
 		750E66B0150DB7590046696C /* ImageScroller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageScroller-Prefix.pch"; sourceTree = "<group>"; };
 		750E66CC150DBBA30046696C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		750E66CF150DC1330046696C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		75D35FBF150E095B00AFE801 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		75D35FC2150E0D0200AFE801 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75D35FC3150E0D0200AFE801 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		75D35FC4150E0D0200AFE801 /* dial-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dial-bg.png"; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		75D35FD2150E0D0200AFE801 /* VSRotatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSRotatingView.h; sourceTree = "<group>"; };
 		75D35FD3150E0D0200AFE801 /* VSRotatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSRotatingView.m; sourceTree = "<group>"; };
 		75D35FD4150E0D0200AFE801 /* VSRotatingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSRotatingView.xib; sourceTree = "<group>"; };
+		75E34147150F2E010013E776 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,10 +109,10 @@
 		750E66A8150DB7590046696C /* ImageScroller */ = {
 			isa = PBXGroup;
 			children = (
+				75E34147150F2E010013E776 /* README */,
 				75D35FC1150E0D0200AFE801 /* Demo */,
 				75D35FC8150E0D0200AFE801 /* VSRotatingView */,
 				750E66A9150DB7590046696C /* Supporting Files */,
-				75D35FBF150E095B00AFE801 /* README */,
 			);
 			path = ImageScroller;
 			sourceTree = "<group>";
@@ -218,7 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				750E66AD150DB7590046696C /* InfoPlist.strings in Resources */,
-				75D35FC0150E095B00AFE801 /* README in Resources */,
 				75D35FD6150E0D0200AFE801 /* dial-bg.png in Resources */,
 				75D35FD7150E0D0200AFE801 /* dial-bg@2x.png in Resources */,
 				75D35FD9150E0D0200AFE801 /* DialClick.caf in Resources */,
@@ -229,6 +228,7 @@
 				75D35FDE150E0D0200AFE801 /* white-circular-bg1.png in Resources */,
 				75D35FDF150E0D0200AFE801 /* white-circular-bg1@2x.png in Resources */,
 				75D35FE1150E0D0200AFE801 /* VSRotatingView.xib in Resources */,
+				75E34148150F2E010013E776 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
