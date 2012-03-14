@@ -20,7 +20,7 @@ Very similar to UIView. For VSRotatingView, you can initialize with "new" method
 
 Initial Steps:
 1. Download and add the complete "VSRotatingView" folder in your project.
-2. You need to add two frameworks in your project - QuartzCore and AVFoundation.
+2. You need to add three frameworks in your project - QuartzCore, AVFoundation and Security.
 3. Add #import "VSRotatingView.h" to the top of view controller in which you are going to use the above code and you are ready to go.
 
 

@@ -14,6 +14,8 @@
 		750E66AF150DB7590046696C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 750E66AE150DB7590046696C /* main.m */; };
 		750E66CE150DBBBB0046696C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E66CC150DBBA30046696C /* QuartzCore.framework */; };
 		750E66D1150DC13E0046696C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E66CF150DC1330046696C /* AVFoundation.framework */; };
+		755823491516F9A000918CD8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 755823481516F9A000918CD8 /* ViewController.xib */; };
+		755823511516FD6200918CD8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7558234F1516FD3900918CD8 /* Security.framework */; };
 		75D35FD5150E0D0200AFE801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D35FC3150E0D0200AFE801 /* AppDelegate.m */; };
 		75D35FD6150E0D0200AFE801 /* dial-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FC4150E0D0200AFE801 /* dial-bg.png */; };
 		75D35FD7150E0D0200AFE801 /* dial-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D35FC5150E0D0200AFE801 /* dial-bg@2x.png */; };
@@ -41,6 +43,8 @@
 		750E66B0150DB7590046696C /* ImageScroller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageScroller-Prefix.pch"; sourceTree = "<group>"; };
 		750E66CC150DBBA30046696C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		750E66CF150DC1330046696C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		755823481516F9A000918CD8 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		7558234F1516FD3900918CD8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		75D35FC2150E0D0200AFE801 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75D35FC3150E0D0200AFE801 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		75D35FC4150E0D0200AFE801 /* dial-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dial-bg.png"; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755823511516FD6200918CD8 /* Security.framework in Frameworks */,
 				750E66D1150DC13E0046696C /* AVFoundation.framework in Frameworks */,
 				750E66CE150DBBBB0046696C /* QuartzCore.framework in Frameworks */,
 				750E66A3150DB7590046696C /* UIKit.framework in Frameworks */,
@@ -97,6 +102,7 @@
 		750E66A1150DB7590046696C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7558234F1516FD3900918CD8 /* Security.framework */,
 				750E66CF150DC1330046696C /* AVFoundation.framework */,
 				750E66CC150DBBA30046696C /* QuartzCore.framework */,
 				750E66A2150DB7590046696C /* UIKit.framework */,
@@ -137,6 +143,7 @@
 				75D35FC5150E0D0200AFE801 /* dial-bg@2x.png */,
 				75D35FC6150E0D0200AFE801 /* ViewController.h */,
 				75D35FC7150E0D0200AFE801 /* ViewController.m */,
+				755823481516F9A000918CD8 /* ViewController.xib */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -229,6 +236,7 @@
 				75D35FDF150E0D0200AFE801 /* white-circular-bg1@2x.png in Resources */,
 				75D35FE1150E0D0200AFE801 /* VSRotatingView.xib in Resources */,
 				75E34148150F2E010013E776 /* README in Resources */,
+				755823491516F9A000918CD8 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +317,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageScroller/ImageScroller-Prefix.pch";
 				INFOPLIST_FILE = "ImageScroller/ImageScroller-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -321,7 +329,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageScroller/ImageScroller-Prefix.pch";
 				INFOPLIST_FILE = "ImageScroller/ImageScroller-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
