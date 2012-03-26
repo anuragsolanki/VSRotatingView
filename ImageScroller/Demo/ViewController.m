@@ -28,7 +28,16 @@
     CGRect frame = rv.frame;
     rv.frame = CGRectMake(frame.origin.x+6.0f, frame.origin.y, frame.size.width, frame.size.height);
     [self.sectionBackground addSubview:rv];
+    rv.rotatingViewDelegate = self;
 }
+
+#pragma mark RotatingViewDelegateMethods
+- (void)viewCirculatedToSegmentIndex:(NSUInteger)index
+{
+    NSLog(@"Wheel rotated to index: %d", index);
+}
+
+#pragma mark -
 
 - (void)viewDidUnload
 {

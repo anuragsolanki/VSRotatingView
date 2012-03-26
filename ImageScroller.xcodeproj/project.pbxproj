@@ -314,11 +314,13 @@
 		750E66BD150DB7590046696C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: manish nath (32777266PH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageScroller/ImageScroller-Prefix.pch";
 				INFOPLIST_FILE = "ImageScroller/ImageScroller-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FDFDEAEB-3090-4521-B1FA-11911122C25C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;

@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
+@protocol RotatingViewDelegate
+
+- (void)viewCirculatedToSegmentIndex:(NSUInteger)index;
+
+@end
+
 @interface VSRotatingView : UIView
 {
     CGFloat normalWellnessDialYPosition, normalWellnessDialOverlayYPosition;
@@ -22,9 +28,10 @@
 
 @property (nonatomic, retain) IBOutlet UIImageView *wellnessDial;
 @property (nonatomic, retain) IBOutlet UIImageView *wellnessDialOverlay;
+@property (nonatomic, assign) id rotatingViewDelegate;
 
 -(void) setupGestures;
--(void) rotate:(int) move;
+//-(void) rotate:(int) move;
 
 
 @end

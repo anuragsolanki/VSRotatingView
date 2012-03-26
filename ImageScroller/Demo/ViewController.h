@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VSRotatingView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <RotatingViewDelegate>
 {
     UIImageView *sectionBackground;
 }

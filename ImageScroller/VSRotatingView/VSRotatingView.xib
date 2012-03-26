@@ -72,6 +72,7 @@
 						<string key="NSFrame">{{-1, 77}, {271, 13}}</string>
 						<reference key="NSSuperview" ref="913423115"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:567</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -151,13 +152,13 @@
 						<reference key="parent" ref="913423115"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">5</int>
-						<reference key="object" ref="296287765"/>
+						<int key="objectID">6</int>
+						<reference key="object" ref="344862287"/>
 						<reference key="parent" ref="913423115"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">6</int>
-						<reference key="object" ref="344862287"/>
+						<int key="objectID">5</int>
+						<reference key="object" ref="296287765"/>
 						<reference key="parent" ref="913423115"/>
 					</object>
 				</array>
